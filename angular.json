@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "your-project-name": {
+      "architect": {
+        "build": {
+          "options": {
+            "scripts": [
+              "node_modules/tailwindcss/lib/cli.js",
+              "-i", "src/styles.css",
+              "-o", "dist/styles.css",
+              "--minify"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
